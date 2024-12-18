@@ -6,7 +6,7 @@ function NetflixSeries() {
     <>
       <ul>
         {seriesData.map((currentElement) => {
-           return <SeriesCard key={currentElement} currentElement = {currentElement} />;
+           return <SeriesCard key={currentElement.id} data = {currentElement} />;
         })}
        
       </ul>
