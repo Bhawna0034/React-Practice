@@ -1,0 +1,47 @@
+[
+    {
+        "country": "Afghanistan",
+        "id": "afghanistan",
+        "population": 33332025,
+        "capital": "Kabul",
+        "language": "Dari",
+        "dialingCode": 93,
+        "flag_url": "https://www.worldometers.info/img/flags/af-flag.gif"
+    },
+    {
+        "country": "Bhutan",
+        "id": "bhutan",
+        "population": 750125,
+        "capital": "Thimpu",
+        "language": "Dzongkha",
+        "dialingCode": 975,
+        "flag_url": "https://www.worldometers.info/img/flags/bt-flag.gif"
+    },
+    {
+        "country": "China",
+        "id": "china",
+        "population": 1373541278,
+        "capital": "Beijing",
+        "language": "Mandarin",
+        "dialingCode": 86,
+        "flag_url": "https://www.worldometers.info/img/flags/ch-flag.gif"
+    },
+    {
+        "country": "France",
+        "id": "france",
+        "population": 66836154,
+        "capital": "Paris",
+        "language": "Franch",
+        "dialingCode": 33,
+        "flag_url": "https://www.worldometers.info/img/flags/fr-flag.gif"
+    },
+    {
+        "country": "India",
+        "id": "india",
+        "population": 1266883598,
+        "capital": "Delhi",
+        "language": "Hindi",
+        "dialingCode": 91,
+        "flag_url": "https://www.worldometers.info/img/flags/in-flag.gif"
+    }
+]

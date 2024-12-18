@@ -1,23 +1,12 @@
 import seriesData from "../api/series.json";
+import { SeriesCard } from "./SeriesCard";
 
 function NetflixSeries() {
   return (
     <>
       <ul>
         {seriesData.map((currentElement) => {
-             return (<li>
-             <div>
-               <img src={currentElement.image_url} alt="StrangerThings" width="50%"/>
-             </div>
-             <h2>Title: {currentElement.title}</h2>
-             <h3>Rating: {currentElement.rating}</h3>
-             <p>Summary: {currentElement.description}</p>
-             <h3>Cast: {currentElement.cast}</h3>
-             <h3>Genre: {currentElement.genre}</h3>
-             <a href={currentElement.watch_url} target="_blank">
-               <button>Watch Now</button>
-             </a>
-           </li>)
+           return <SeriesCard key={currentElement} currentElement = {currentElement} />;
         })}
        
       </ul>

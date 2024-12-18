@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import NetflixSeries from './components/NetflixSeries'
+import Flags from './components/Flags'
 
 //Default Import
 // import StrangerThings from './components/NetflixSeries' 
@@ -15,6 +16,7 @@ import NetflixSeries from './components/NetflixSeries'
 export default function App(){
   return (
     <>
+    {/* <Flags/> */}
       <NetflixSeries/>
       {/* <StrangerThings/>
       <MoneyHeist/> */}
