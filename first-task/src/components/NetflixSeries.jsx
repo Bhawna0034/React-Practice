@@ -1,7 +1,8 @@
 import seriesData from "../api/series.json";
 import { SeriesCard } from "./SeriesCard";
-import './Series.css';
+// import './Series.css';
 import './NetflixSeries.css'
+
 
 function NetflixSeries() {
   return (
