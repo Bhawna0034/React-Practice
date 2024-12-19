@@ -1,9 +1,12 @@
 import seriesData from "../api/series.json";
 import { SeriesCard } from "./SeriesCard";
+import './Series.css';
+import './NetflixSeries.css'
 
 function NetflixSeries() {
   return (
     <>
+    <h1>List of Best Netflix Series</h1>
       <ul>
         {seriesData.map((currentElement) => {
            return <SeriesCard key={currentElement.id} data = {currentElement} />;
