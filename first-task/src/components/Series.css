@@ -6,8 +6,11 @@ h2, h3, p, button{
     line-height:normal;
 }
 img{
-    width:300px;
-    height:250px;
+    width:100%;
+    height:auto;
+    object-fit:cover;
+    min-width:300px;
+    max-height:250px;
 }
 
 ul li{
