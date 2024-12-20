@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NetflixSeries from './components/NetflixSeries'
 import Flags from './components/Flags'
+import EventHandling from './components/EventHandling'
 
 //Default Import
 // import StrangerThings from './components/NetflixSeries' 
@@ -16,8 +17,9 @@ import Flags from './components/Flags'
 export default function App(){
   return (
     <>
+    <EventHandling/>
     {/* <Flags/> */}
-      <NetflixSeries/>
+      {/* <NetflixSeries/> */}
       {/* <StrangerThings/>
       <MoneyHeist/> */}
     </>
