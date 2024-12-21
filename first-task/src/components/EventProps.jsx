@@ -13,7 +13,7 @@ export default EventProps;
 const Toolbar = ({onPlayMovie, onUploadingImage}) => {
     return(
         <>
-        <Button onClick = {onPlayMovie}> Play Button </Button>
+        <Button onClick = {onPlayMovie} > Play Button </Button>
         <Button onClick = {onUploadingImage} >Upload Image</Button>
         </>
     )
@@ -22,7 +22,7 @@ const Toolbar = ({onPlayMovie, onUploadingImage}) => {
 const Button = ({onClick, children}) => {
     return (
         <>
-        <button onClick={onClick}> {children}</button>
+        <button onClick={onClick} className="bg-purple-500 text-white"> {children}</button>
         </>
     )
 }
