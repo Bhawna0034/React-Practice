@@ -5,6 +5,7 @@ import './App.css'
 import NetflixSeries from './components/NetflixSeries'
 import Flags from './components/Flags'
 import EventHandling from './components/EventHandling'
+import EventProps from './components/EventProps';
 
 //Default Import
 // import StrangerThings from './components/NetflixSeries' 
@@ -17,7 +18,8 @@ import EventHandling from './components/EventHandling'
 export default function App(){
   return (
     <>
-    <EventHandling/>
+    <EventProps />
+    {/* <EventHandling/> */}
     {/* <Flags/> */}
       {/* <NetflixSeries/> */}
       {/* <StrangerThings/>
