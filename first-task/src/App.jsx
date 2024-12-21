@@ -7,6 +7,7 @@ import Flags from './components/Flags'
 import EventHandling from './components/EventHandling'
 import EventProps from './components/EventProps';
 import EventPropagation from './components/EventPropagation';
+import State from './hooks/State';
 
 //Default Import
 // import StrangerThings from './components/NetflixSeries' 
@@ -19,7 +20,8 @@ import EventPropagation from './components/EventPropagation';
 export default function App(){
   return (
     <>
-    <EventPropagation />
+    <State />
+    {/* <EventPropagation /> */}
     {/* <EventProps /> */}
     {/* <EventHandling/> */}
     {/* <Flags/> */}
