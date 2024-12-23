@@ -7,16 +7,33 @@ const State = () => {
 //   }
 
 let [count, setCount] = useState(0);
-
+console.log("Parent Component");
 const handleIncrementButton = () => {
+   
     setCount(() => count++);
 }
     return(
         <>
         <h2 className="text-5xl font-bold">{count}</h2>
         <button onClick={handleIncrementButton} className="bg-teal-600 text-white mt-4 text-2xl">Increment</button>
+        {/* <ChildComponent /> */}
         </>
     )
 }
 
-export default State;
+// const ChildComponent = () => {
+//     console.log(`Child Component`);
+//     return(
+//         <h1>Child Component</h1>
+//     );
+// }
+
+// const SiblingComponent = () => {
+//     console.log("Sibling Component");
+//     return(
+//         <h2 className="text-4xl font-bold mt-2">Sibling Component</h2>
+//     )
+// };
+
+// export {State, SiblingComponent};
+export {State};
