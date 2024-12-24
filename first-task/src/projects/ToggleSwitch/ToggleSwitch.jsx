@@ -4,11 +4,13 @@ const ToggleSwitch = () => {
   const handleToggleSwitch = () => {
     setIsON(!isON);
     document.body.style.backgroundColor = isON ? "black" : "white";
+    document.body.style.color = isON? "white" : "black";
   };
 
  
   return (
     <>
+      <h2 className="text-3xl font-bold text-center mt-4">Toggle Switch Button</h2>
       <div
         id="toggle-switch"
         className={`border border-gray-200 px-6 py-2 rounded-full ml-[1000px] mb-[500px] ${
