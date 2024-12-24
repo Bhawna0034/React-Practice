@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
 import NetflixSeries from './components/NetflixSeries'
 import Flags from './components/Flags'
 import EventHandling from './components/EventHandling'
@@ -11,6 +11,7 @@ import {State} from './hooks/State';
 // import {State, SiblingComponent} from './hooks/State';
 import DerivedState  from './hooks/DerivedState'
 import LiftingStateUp  from './hooks/LiftingStateUp'
+import ToggleSwitch  from './projects/ToggleSwitch/ToggleSwitch';
 
 //Default Import
 // import StrangerThings from './components/NetflixSeries' 
@@ -23,7 +24,8 @@ import LiftingStateUp  from './hooks/LiftingStateUp'
 export default function App(){
   return (
     <>
-    <LiftingStateUp />
+    <ToggleSwitch />
+    {/* <LiftingStateUp /> */}
     {/* <DerivedState  /> */}
     {/* <State /> */}
     {/* <SiblingComponent /> */}
