@@ -10,6 +10,7 @@ import EventPropagation from './components/EventPropagation';
 import {State} from './hooks/State';
 // import {State, SiblingComponent} from './hooks/State';
 import DerivedState  from './hooks/DerivedState'
+import LiftingStateUp  from './hooks/LiftingStateUp'
 
 //Default Import
 // import StrangerThings from './components/NetflixSeries' 
@@ -22,7 +23,8 @@ import DerivedState  from './hooks/DerivedState'
 export default function App(){
   return (
     <>
-    <DerivedState  />
+    <LiftingStateUp />
+    {/* <DerivedState  /> */}
     {/* <State /> */}
     {/* <SiblingComponent /> */}
     {/* <EventPropagation /> */}
